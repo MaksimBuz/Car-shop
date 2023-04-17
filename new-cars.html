@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+            <div class="container-fluid" style="background-color: #151515;">
+                <a href="./index.html" class="logo">
+                    <img src="./images/Vector.svg" alt="" class="logo__img ">
+                </a> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item menu__list-link ">
+                    <a class="nav-link  " aria-current="page" href="./new-cars.html">NEW CAR</a>
+                  </li>
+                  <li class="nav-item menu__list-link">
+                    <a class="nav-link " href="#">PRE-OWNED CARS</a>
+                  </li>
+                  <li class="nav-item menu__list-link">
+                    <a class="nav-link "href="">FINANCE</a>
+                  </li>
+                  <li class="nav-item menu__list-link"href="">
+                    <a class="nav-link "href="">LEASE VS BUY</a>
+                  </li>
+                  <li class="nav-item menu__list-link">
+                    <a class="nav-link "href="./contacts.html">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main class="main">
+            <section class="choose">
+                <div class="container">
+                 <h2 class="section-title">Choose your car</h2>
+                 <div class="tabs">
+                    <div class="tabs__btn">
+                        <button class="tabs__btn-item tabs__btn-item-active" data-button="content-1">Car and Minivan</button>
+                        <button class="tabs__btn-item" data-button="content-2">Trucks</button>
+                        <button class="tabs__btn-item"data-button="content-3">Crossovers & SUVs</button>
+                        <button class="tabs__btn-item"data-button="content-4">Electrified</button>
+                    </div>
+                    <div class="tabs__content" >
+                        <div class="tabs__content-item tabs__content-item-active" id="content-1">
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-1.png" alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Toyota Crown 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 39900 </p>
+                                    <p class="tabs__content-card-prise">$ 650/mo </p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-2.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Prius Prime 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 39900 </p>
+                                    <p class="tabs__content-card-prise"> $ 450/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-3.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Toyota Prius 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 39900 </p>
+                                    <p class="tabs__content-card-prise"> $ 400/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-4.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Hyundai Kona 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 39900 </p>
+                                    <p class="tabs__content-card-prise">$510/mo </p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                        </div>
+                        <div class="tabs__content-item" id="content-2">
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-5.png" alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Ford Explorer 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 39900 </p>
+                                    <p class="tabs__content-card-prise">$1,013/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card6.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Santa  Fe 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 39900 </p>
+                                    <p class="tabs__content-card-prise"> $739/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card7.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">KIA Niro 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 33600</p>
+                                    <p class="tabs__content-card-prise"> $554/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-8.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Chevrolet Silverado</h4>
+                                    <p class="tabs__content-card-text">starting from $ 62260 </p>
+                                    <p class="tabs__content-card-prise">$1,032/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                        </div>
+                        <div class="tabs__content-item" id="content-3">
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-9.png" alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Toyota Crown 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 35650</p>
+                                    <p class="tabs__content-card-prise">$591/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-10.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Honda CR-V 2023</h4>
+                                    <p class="tabs__content-card-text">starting from $ 39900 </p>
+                                    <p class="tabs__content-card-prise"> $528/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-11.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Hyundai Tucson</h4>
+                                    <p class="tabs__content-card-text">starting from $ 31885</p>
+                                    <p class="tabs__content-card-prise"> $471/mo</p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                            <div class="tabs__content-card">
+                                <div class="tabs__content-card-content">
+                                    <img src="./images/card-12.png"  alt="" class="tabs__content-card-img">
+                                    <h4 class="tabs__content-card-title">Chevrolet Equinox </h4>
+                                    <p class="tabs__content-card-text">starting from $ 60000</p>
+                                    <p class="tabs__content-card-prise">$997/mo </p>
+                                </div>
+                                <a href="tabs__content-card-link" >see details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="blog__link">SHOW MORE</a>
+                 </div>
+             </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <ul class="nav justify-content-between ">
+                    <li class="nav-item">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"> <p class="footer__menu-title">Products</p></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">Used</a></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">New</a></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">Sell your car</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><p class="footer__menu-title">Resources</p></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">Blog</a></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">FAQ</a></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">Contact us</a></li>    
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                      <ul class="footer__menu-list">
+                        <li class="footer__menu-item">  <p class="footer__menu-title">Work With TrueCar</p></li>
+                        <li class="footer__menu-item"><a href="" class="footer__menu-link">Dealers</a></li>
+                        <li class="footer__menu-item"><a href="" class="footer__menu-link">Partners</a></li>     
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">  <p class="footer__menu-title">About</p></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">About us</a></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">Team</a></li>
+                            <li class="footer__menu-item"><a href="" class="footer__menu-link">Careers</a></li>   
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="row apps justify-content-center ">  
+                    <div class="col-12 col-lg-3 ">  <a href="" class="apps-item-links" > <img src="./images/aple.svg" alt=""> </a>        
+                    </div>
+                    <div class="col-12 col-lg-3">   <a href="" class="apps-item-links">   <img src="./images/google.svg" alt="" srcset=""> </a>  
+                    </div>
+                </div>
+                <div class="row footer__copy">
+                    <div class="col-12">
+                        <p class="footer__copy-text">For questions about the TrueCar Auto Buying Service please call 1-888-878-3227.
+                            Certified Dealers are contractually obligated by TrueCar to meet certain customer service requirements and complete the TrueCar Dealer Certification Program.
+                            TrueCar does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on this website are offered for sale by licensed motor vehicle dealers. 
+                            All vehicles are subject to prior sale. 
+                            By accessing this website, you agree to the TrueCar Terms of Service and Privacy Policy.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="nav justify-content-center">
+                            <a class="nav-link active" aria-current="page" href="#">Terms of Service</a>
+                            <a class="nav-link" href="#">Privacy Policy</a>
+                            <a class="nav-link" href="#">Do Not Sell My Personal Information</a>
+                        </nav>
+                    </div>
+                </div>
+               
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
